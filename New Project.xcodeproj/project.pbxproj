@@ -20,6 +20,7 @@
 		CECB2C112521E19200658DA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECB2C0F2521E19200658DA7 /* LaunchScreen.storyboard */; };
 		CECB2C1C2521E19300658DA7 /* New_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECB2C1B2521E19300658DA7 /* New_ProjectTests.swift */; };
 		CECB2C272521E19300658DA7 /* New_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECB2C262521E19300658DA7 /* New_ProjectUITests.swift */; };
+		CEF39DE7252CBD29006FF0E0 /* Detail12ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF39DE6252CBD29006FF0E0 /* Detail12ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		CECB2C222521E19300658DA7 /* New ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "New ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CECB2C262521E19300658DA7 /* New_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New_ProjectUITests.swift; sourceTree = "<group>"; };
 		CECB2C282521E19300658DA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF39DE6252CBD29006FF0E0 /* Detail12ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail12ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				CE6F64DA2528D21D006A0734 /* FoodCollectionViewController.swift */,
 				CE5966A0252A8A5600A2402C /* CoffeeShop.swift */,
 				CE5966A8252AE26400A2402C /* DetailviewController.swift */,
+				CEF39DE6252CBD29006FF0E0 /* Detail12ViewController.swift */,
 			);
 			path = "New Project";
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				CECB2C052521E18B00658DA7 /* AppDelegate.swift in Sources */,
 				CE6F64E02528D75D006A0734 /* FoodCollectionViewCell.swift in Sources */,
 				CECB2C072521E18B00658DA7 /* SceneDelegate.swift in Sources */,
+				CEF39DE7252CBD29006FF0E0 /* Detail12ViewController.swift in Sources */,
 				CE5966A9252AE26400A2402C /* DetailviewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -41,11 +41,12 @@ class FoodCollectionViewController: UICollectionViewController {
 
     
     @IBOutlet weak var collectionview: UICollectionView!
+   
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
+        self.clearsSelectionOnViewWillAppear = false
 
         // Register cell classes
         //self.collectionView!.register(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
@@ -61,8 +62,9 @@ class FoodCollectionViewController: UICollectionViewController {
         // Get the new view controller using [segue destinationViewController].
         // Pass the selected object to the new view controller.
     }
+     
     */
-
+    
     // MARK: UICollectionViewDataSource
 
 //    override func numberOfSections(in collectionView: UICollectionView) -> Int {
@@ -86,7 +88,7 @@ class FoodCollectionViewController: UICollectionViewController {
         
 //        cell.CoffeeShopNames.text = coffeeShopNames[indexPath.item]
 //        cell.coffeeShopImage.image = UIImage(named: coffeeShopImages[indexPath.item])
-        // cell.imageView.layer.cornerRadius = 40
+//        cell.imageView?.layer.cornerRadius = 40
 //        cell.imageView?.clipsToBounds = true
     
         return cell
@@ -96,21 +98,23 @@ class FoodCollectionViewController: UICollectionViewController {
 //                We created an instance of class CoffeeShop in DetailViewController,
 //                we need something to hold CoffeeShop Data because  that is
 //                what we are sending in Prepare for segue
-//        if let destination = segue.destination as? DetailviewController{
-//        destination.shops = coffeeShops[(tableview.indexPathForSelectedRow?.row)!]
-//         tableview.deselectRow(at: tableview.indexPathForSelectedRow!, animated: true)
-                
-        if let destination = segue.destination as? DetailviewController,
-                   let index = collectionView.indexPathsForSelectedItems?.first {
-                destination.shops = coffeeShops[index.row]
-
+//        if let destination2 = segue.destination as? Detail12ViewController{
 //
-//       if let destination = segue.destination as? DetailviewController {
-//        destination.shops = coffeeShops[(collectionview.indexPathsForSelectedItems)]
-//            collectionview.deselectItem(at: collectionview.indexPathForSelectedItems!, animated: true)
+//        destination2.shops = coffeeShops[(collectionview.indexPathsForSelectedItems)]
+//         collectionview.deselectRow(at: collectionview.indexPathForSelectedRow!, animated: true)
+                
+        if let destination = segue.destination as? Detail12ViewController,
+                   let index = collectionview.indexPathsForSelectedItems?.first {
+                destination.shopes = coffeeShops[index.row]
         }
 
-    }
+//         let destination = [segue, Detail12ViewController()] {
+//        destination.shops = coffeeShops[(collectionview.indexPathsForSelectedItems?.first)]
+//            collectionview.deselectItem(at: collectionview.indexPathsForSelectedItems, animated: true)
+//        }
+//
+//    }
+
         
             
     // MARK: UICollectionViewDelegate
@@ -148,3 +152,4 @@ class FoodCollectionViewController: UICollectionViewController {
 
     
 
+    }
