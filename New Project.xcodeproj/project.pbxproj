@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE5966A1252A8A5600A2402C /* CoffeeShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5966A0252A8A5600A2402C /* CoffeeShop.swift */; };
+		CE5966A9252AE26400A2402C /* DetailviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5966A8252AE26400A2402C /* DetailviewController.swift */; };
 		CE684EFC252357C400B64467 /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE684EFB252357C400B64467 /* FoodTableViewCell.swift */; };
 		CE6F64DB2528D21D006A0734 /* FoodCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6F64DA2528D21D006A0734 /* FoodCollectionViewController.swift */; };
 		CE6F64E02528D75D006A0734 /* FoodCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6F64DF2528D75D006A0734 /* FoodCollectionViewCell.swift */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE5966A0252A8A5600A2402C /* CoffeeShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeShop.swift; sourceTree = "<group>"; };
+		CE5966A8252AE26400A2402C /* DetailviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailviewController.swift; sourceTree = "<group>"; };
 		CE684EFB252357C400B64467 /* FoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
 		CE6F64DA2528D21D006A0734 /* FoodCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCollectionViewController.swift; sourceTree = "<group>"; };
 		CE6F64DF2528D75D006A0734 /* FoodCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -107,14 +111,16 @@
 			children = (
 				CECB2C042521E18B00658DA7 /* AppDelegate.swift */,
 				CECB2C062521E18B00658DA7 /* SceneDelegate.swift */,
-				CECB2C082521E18B00658DA7 /* ViewController.swift */,
 				CECB2C0A2521E18B00658DA7 /* Main.storyboard */,
 				CECB2C0D2521E19200658DA7 /* Assets.xcassets */,
 				CECB2C0F2521E19200658DA7 /* LaunchScreen.storyboard */,
 				CECB2C122521E19200658DA7 /* Info.plist */,
 				CE684EFB252357C400B64467 /* FoodTableViewCell.swift */,
 				CE6F64DF2528D75D006A0734 /* FoodCollectionViewCell.swift */,
+				CECB2C082521E18B00658DA7 /* ViewController.swift */,
 				CE6F64DA2528D21D006A0734 /* FoodCollectionViewController.swift */,
+				CE5966A0252A8A5600A2402C /* CoffeeShop.swift */,
+				CE5966A8252AE26400A2402C /* DetailviewController.swift */,
 			);
 			path = "New Project";
 			sourceTree = "<group>";
@@ -269,10 +275,12 @@
 			files = (
 				CECB2C092521E18B00658DA7 /* ViewController.swift in Sources */,
 				CE6F64DB2528D21D006A0734 /* FoodCollectionViewController.swift in Sources */,
+				CE5966A1252A8A5600A2402C /* CoffeeShop.swift in Sources */,
 				CE684EFC252357C400B64467 /* FoodTableViewCell.swift in Sources */,
 				CECB2C052521E18B00658DA7 /* AppDelegate.swift in Sources */,
 				CE6F64E02528D75D006A0734 /* FoodCollectionViewCell.swift in Sources */,
 				CECB2C072521E18B00658DA7 /* SceneDelegate.swift in Sources */,
+				CE5966A9252AE26400A2402C /* DetailviewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
