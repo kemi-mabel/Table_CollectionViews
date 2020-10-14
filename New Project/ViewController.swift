@@ -68,6 +68,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         ourCell.imageView?.layer.cornerRadius = 40
         ourCell.imageView?.clipsToBounds = true
+        
         return ourCell
     }
     
